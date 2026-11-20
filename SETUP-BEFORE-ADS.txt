@@ -1,0 +1,12 @@
+COALESCE EVENTZ — EVENT MANAGEMENT LANDING PAGE
+
+Preview: open index.html.
+
+CRITICAL: In script.js set FORM_ENDPOINT to your tested HTTPS lead-capture API. Until configured, the form opens a mailto draft, NOT a submitted lead.
+Configure a secure backend (e.g. WordPress REST endpoint) with server-side validation, spam protection and email/CRM delivery.
+
+After successful backend persistence, the script redirects to thank-you.html. Configure Google Ads conversions using this page only after confirming successful submissions.
+
+Google Ads attribution fields: gclid, gbraid, wbraid and UTMs. Test in browser and GTM preview before campaign launch.
+
+Photos in category and portfolio cards are referenced from the live Coalesce Eventz website. They require internet access.
